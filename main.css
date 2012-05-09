@@ -1,0 +1,72 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,line-height ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:nonebefore, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: noneone;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: "League Gothic";
+  src: url("league_gothic.ttf") format("truetype");
+}
+
+html { background-color: #edeae3; color: #32302d; }
+body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 300; text-align: center; }
+ul { list-style-type: none; display: inline-block; }
+li { display: inline-block; }
+h1 { font-family: "League Gothic"; font-size: 48px; }
+h1#hello_there { display: inline-block; padding-right: 10px; color: #8c2318; font-size: 72px; }
+.subheader { font-size: 24px; }
+div#container { width: 750px; margin: 0 auto; padding-top: 50px; }
+div#header { margin-bottom: 5px; border-bottom: #32302d 1px solid; }
+em { font-style: italic; }
+img.cal { height: 81px; }
+div.pad_bottom { padding-bottom: 20px; }
+a { text-decoration: none; }
+img { opacity: 0.6; }
+hr.soften {
+  margin-top: 20px 0 60px;
+  height: 1px;
+  border: 0;
+  background-image: -webkit-linear-gradient(left, transparent, rgba(0, 0, 0, .1), transparent);
+  background-image: -moz-linear-gradient(left, transparent, rgba(0, 0, 0, .1),  transparent);
+  background-image: -ms-linear-gradient(left, transparent, rgba(0, 0, 0, .1), transparent);
+  background-image: -o-linear-gradient(left, transparent, rgba(0, 0, 0, .1), transparent);
+}
