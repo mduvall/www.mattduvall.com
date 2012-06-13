@@ -52,8 +52,8 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:
 ul { list-style-type: none; display: inline-block; }
 li { display: inline-block; }
 h1 { font-family: "League Gothic"; font-size: 48px; }
-h1#hello_there { display: inline-block; padding-right: 10px; color: #8c2318; font-size: 72px; }
-.subheader { font-size: 24px; }
+h1#hello_there { display: inline-block; padding-right: 10px; color: #8c2318; font-size: 85px; }
+.subheader { font-size: 20px; }
 div#container { width: 750px; margin: 0 auto; padding-top: 50px; }
 div#header { margin-bottom: 5px; border-bottom: #32302d 1px solid; }
 em { font-style: italic; }
@@ -70,3 +70,6 @@ hr.soften {
   background-image: -ms-linear-gradient(left, transparent, rgba(0, 0, 0, .1), transparent);
   background-image: -o-linear-gradient(left, transparent, rgba(0, 0, 0, .1), transparent);
 }
+.small-caps { font-variant: small-caps; }
+.job { padding: 0 15px;}
+.announcement { padding-top: 15px;}
