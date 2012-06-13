@@ -52,7 +52,13 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:
 ul { list-style-type: none; display: inline-block; }
 li { display: inline-block; }
 h1 { font-family: "League Gothic"; font-size: 48px; }
-h1#hello_there { display: inline-block; padding-right: 10px; color: #8c2318; font-size: 85px; }
+h1#hello_there { 
+  display: inline-block; 
+  padding-right: 10px; 
+  color: #8c2318; 
+  font-size: 85px; 
+  text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+}
 .subheader { font-size: 20px; }
 div#container { width: 750px; margin: 0 auto; padding-top: 50px; }
 div#header { margin-bottom: 5px; border-bottom: #32302d 1px solid; }
@@ -73,3 +79,6 @@ hr.soften {
 .small-caps { font-variant: small-caps; }
 .job { padding: 0 15px;}
 .announcement { padding-top: 15px;}
+#blog-link { font-weight: bold; color: #8c2318; opacity:0.8;}
+#name_container { display: inline-block; width: 280px;}
+.fl { float:left; }
