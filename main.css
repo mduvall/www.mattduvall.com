@@ -75,6 +75,7 @@ hr.soften {
   background-image: -moz-linear-gradient(left, transparent, rgba(0, 0, 0, .1),  transparent);
   background-image: -ms-linear-gradient(left, transparent, rgba(0, 0, 0, .1), transparent);
   background-image: -o-linear-gradient(left, transparent, rgba(0, 0, 0, .1), transparent);
+  width: 720px;
 }
 .small-caps { font-variant: small-caps; }
 .job { padding: 0 15px;}
